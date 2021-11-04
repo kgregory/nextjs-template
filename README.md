@@ -1,5 +1,13 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+This will serve as a configured starting point for projects and has been extended with the following:
+
+- [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/typescript-eslint)
+- [prettier](https://nextjs.org/docs/basic-features/eslint#prettier)
+- [lint-staged](https://nextjs.org/docs/basic-features/eslint#lint-staged)
+- [editorconfig](https://editorconfig.org/)
+- [Recommended VSCode Extensions](https://code.visualstudio.com/docs/editor/extension-marketplace#_workspace-recommended-extensions)
+
 ## Getting Started
 
 First, run the development server:

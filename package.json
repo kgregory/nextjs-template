@@ -26,9 +26,5 @@
 		"lint-staged": "11.2.6",
 		"prettier": "2.4.1",
 		"typescript": "4.4.4"
-	},
-	"lint-staged": {
-		"*.{js,jsx,ts,tsx}": "eslint --cache --fix",
-		"*.{js,jsx,ts,tsx,html,css,md}": "prettier --write"
 	}
 }

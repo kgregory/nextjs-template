@@ -1,6 +1,4 @@
 module.exports = {
-	'**/*.[js|ts]?(x)': filenames =>
-		`next lint --fix --file ${filenames
-			.map(file => file.split(process.cwd())[1])
-			.join(' --file ')}`,
+	'*.{js,jsx,ts,tsx}': ['eslint --cache --fix', 'prettier --write'],
+	'*.{html,css,md}': 'prettier --write',
 };
