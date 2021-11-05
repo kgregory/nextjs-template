@@ -1,5 +1,5 @@
 {
-	"name": "djns",
+	"name": "nextjs-template",
 	"private": true,
 	"scripts": {
 		"dev": "next dev",
